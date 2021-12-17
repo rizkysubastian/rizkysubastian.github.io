@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: dodgerblue;
+  width: 100% ;
+  padding: 48px 20px ;
+  color: white;
+  
+}
+header h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  line-height: 130%;
+}
+header p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+header .buton {
+  background-color: white;
+  color: dodgerblue;
+  font-size: 18px;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+header a {
+  text-decoration: none;
+  display: inline-block;
+}
+header .link a {
+  color: white;
+  margin-right: 10px;
+  transition: all 0.3s ease-in;
+}
+header .link a:hover {
+  color: black;
+  margin-right: 30px;
+}
+header .link a:active {
+  color: red;
+}
+#mywork {
+  padding : 30px  0px;
+  background-color: #EEE;
+  
+}
+#mywork .yt {
+  display: inline-block;
+  width: calc(100vw / 2 - 2.2px);
+  height: 120px;
+}
+#mywork h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contac a {
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+#contac {
+  background-color: #EEE;
+  text-align: center;
+}
